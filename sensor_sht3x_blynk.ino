@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLwKSMfi-m"
-#define BLYNK_DEVICE_NAME "SHT3X"
-#define BLYNK_AUTH_TOKEN "1omiXS21GSVeoUjQ-QMQ-38uQqPwC5dr"
+#define BLYNK_TEMPLATE_ID "XXXXXXXXX"
+#define BLYNK_DEVICE_NAME "XXXXXXXXXXXXX"
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXXXXXX"
 #define BLYNK_PRINT Serial
 
 #include <SPI.h>
@@ -15,8 +15,8 @@ SHTSensor sht;
 String datasensor;
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "KMTek"; //nama wifi
-char pass[] = "KMTek123"; //password wifi
+char ssid[] = "XXXXXXXX"; //nama wifi
+char pass[] = "XXXXXXXX"; //password wifi
 
 BlynkTimer timer;
 
